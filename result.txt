@@ -1,0 +1,3 @@
+Total words in IF.txt: 301
+Total words in AlwaysRememberUsThisWay.txt: 242
+IP address of container: 10.10.4.227
