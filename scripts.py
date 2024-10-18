@@ -42,9 +42,6 @@ ip_address = get_ip_address()
 with open("/Users/mallikarjuna/Desktop/dockerfile/output/result.txt", 'w') as output_file:
     output_file.write(f"Total words in IF.txt: {count_if}\n")
     output_file.write(f"Total words in AlwaysRememberUsThisWay.txt: {count_arutw}\n")
-    #output_file.write(f"Grand total of words: {total_words}\n")
-    #output_file.write(f"Top 3 most frequent words in IF.txt: {most_frequent_if}\n")
-    #output_file.write(f"Top 3 most frequent words in AlwaysRememberUsThisWay.txt: {most_frequent_arutw}\n")
     output_file.write(f"IP address of container: {ip_address}\n")
 
 # Print the result to the console
